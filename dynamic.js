@@ -23,7 +23,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
         })
         .catch(function writeError(err) {
           // catches the error and logs it
-          console.log(err);
         })
         .finally(() => {
           // removes the loading element
